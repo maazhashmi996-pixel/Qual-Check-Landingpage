@@ -11,7 +11,6 @@ import {
     CheckCircle2
 } from 'lucide-react';
 
-// Card Data Structure
 interface SolutionCardProps {
     icon: React.ComponentType<{ size?: number; className?: string }>;
     title: string;
@@ -19,7 +18,6 @@ interface SolutionCardProps {
     ctaText?: string;
 }
 
-// Reusable Card Component - VIP Modern Style
 const SolutionCard: React.FC<SolutionCardProps> = ({ icon: Icon, title, points, ctaText }) => {
     return (
         <div className="group bg-white p-8 rounded-3xl shadow-[0_10px_30px_-15px_rgba(0,0,0,0.05)] border border-gray-100 flex flex-col h-full hover:shadow-[0_20px_50px_-15px_rgba(67,181,173,0.15)] hover:-translate-y-1 transition-all duration-500">
@@ -106,7 +104,6 @@ const Solutions: React.FC = () => {
     return (
         <section className="bg-[#F8F8F5] py-32 px-6 lg:px-12 relative overflow-hidden">
 
-            {/* VIP BACKGROUND GRAPHICS */}
             <div className="absolute inset-0 z-0 opacity-[0.05] pointer-events-none">
                 <svg viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg" className="w-full h-full">
                     <circle cx="10%" cy="20%" r="150" stroke="#43B5AD" strokeWidth="1" fill="none" />
@@ -117,10 +114,8 @@ const Solutions: React.FC = () => {
             <div className="max-w-7xl mx-auto relative z-10">
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 lg:gap-24 items-start">
 
-                    {/* Left Side: Dynamic Mockup Stack */}
                     <div className="lg:col-span-5 relative h-[500px] md:h-[700px] flex items-center justify-center group">
 
-                        {/* Large Background Accent "C" */}
                         <div className="absolute left-[-15%] bottom-0 text-[#43B5AD] text-[35rem] font-black opacity-[0.07] select-none group-hover:scale-110 transition-transform duration-1000">C</div>
 
                         {/* Base Laptop Mockup */}
