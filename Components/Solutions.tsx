@@ -123,17 +123,14 @@ const Solutions: React.FC = () => {
                             <img src="/portal.jpg" alt="Portal View" className="w-full h-auto object-contain" />
                         </div>
 
-                        {/* Tablet Overlap */}
                         <div className="absolute w-[60%] right-[-10%] top-[30%] z-20 shadow-2xl transform rotate-3 hover:rotate-0 transition-all duration-700">
                             <img src="/tablet1.jpg" alt="Tablet View" className="w-full h-auto object-contain rounded-xl" />
                         </div>
 
-                        {/* Person / Professional Illustration */}
                         <div className="absolute w-[65%] left-[-20%] bottom-[-5%] z-30 drop-shadow-2xl">
                             <img src="/mockups/woman.png" alt="Verification Professional" className="w-full h-auto object-contain" />
                         </div>
 
-                        {/* Floating Mobile Phone */}
                         <div className="absolute w-[30%] right-[5%] bottom-[10%] z-40 shadow-2xl transform -rotate-12 hover:rotate-0 transition-all duration-500">
                             <img src="/mobile.webp" alt="Mobile Verification" className="w-full h-auto object-contain" />
                         </div>
