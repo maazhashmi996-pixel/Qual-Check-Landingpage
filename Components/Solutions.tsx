@@ -2,7 +2,14 @@
 
 import React from 'react';
 import Image from 'next/image';
-import { GraduationCap, Search, Stethoscope, BriefcaseBusiness, ChevronRight } from 'lucide-react';
+import {
+    GraduationCap,
+    Search,
+    Stethoscope,
+    BriefcaseBusiness,
+    ChevronRight,
+    CheckCircle2
+} from 'lucide-react';
 
 // Card Data Structure
 interface SolutionCardProps {
@@ -12,31 +19,37 @@ interface SolutionCardProps {
     ctaText?: string;
 }
 
-// Reusable Card Component
+// Reusable Card Component - VIP Modern Style
 const SolutionCard: React.FC<SolutionCardProps> = ({ icon: Icon, title, points, ctaText }) => {
     return (
-        <div className="bg-white p-8 rounded-sm shadow-[0_10px_40px_-15px_rgba(0,0,0,0.05)] border border-gray-100 flex flex-col h-full hover:shadow-[0_15px_50px_-10px_rgba(67,181,173,0.1)] transition-all duration-300">
-            <div className="mb-6">
-                {/* Orange icon wrap */}
-                <div className="bg-[#FF9654]/10 text-[#FF9654] p-3 rounded-full inline-block">
-                    <Icon size={28} />
+        <div className="group bg-white p-8 rounded-3xl shadow-[0_10px_30px_-15px_rgba(0,0,0,0.05)] border border-gray-100 flex flex-col h-full hover:shadow-[0_20px_50px_-15px_rgba(67,181,173,0.15)] hover:-translate-y-1 transition-all duration-500">
+            <div className="mb-6 flex justify-between items-start">
+                <div className="bg-[#FF9654]/10 text-[#FF9654] p-4 rounded-2xl transition-colors group-hover:bg-[#FF9654] group-hover:text-white duration-500">
+                    <Icon size={26} />
+                </div>
+                <div className="w-10 h-10 rounded-full bg-gray-50 flex items-center justify-center text-gray-200 group-hover:text-[#43B5AD] transition-colors">
+                    <CheckCircle2 size={18} />
                 </div>
             </div>
 
-            <h3 className="text-xl font-semibold text-[#2D4A53] mb-5 tracking-tight">{title}</h3>
+            <h3 className="text-xl font-black text-[#002b5c] mb-5 tracking-tight leading-tight">
+                {title}
+            </h3>
 
-            <ul className="text-[15px] text-[#4A5568] leading-relaxed space-y-3 mb-6 flex-grow">
+            <ul className="space-y-4 mb-8 flex-grow">
                 {points.map((point, index) => (
-                    <li key={index} className="list-disc list-inside">
+                    <li key={index} className="flex gap-3 text-[14px] text-gray-500 leading-relaxed">
+                        <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-[#43B5AD] flex-shrink-0" />
                         {point}
                     </li>
                 ))}
             </ul>
 
             {ctaText && (
-                <a href="#" className="flex items-center text-[#FF9654] font-medium hover:text-[#e88543] transition mt-auto">
-                    {ctaText} <ChevronRight size={18} className="ml-1" />
-                </a>
+                <button className="flex items-center gap-2 text-[#002b5c] font-black text-xs uppercase tracking-widest group/btn mt-auto">
+                    {ctaText}
+                    <ChevronRight size={16} className="text-[#FF9654] group-hover/btn:translate-x-1 transition-transform" />
+                </button>
             )}
         </div>
     );
@@ -48,21 +61,21 @@ const Solutions: React.FC = () => {
             icon: GraduationCap,
             title: "Higher Education",
             points: [
-                "Are your admissions teams overwhelmed by volume of work?",
-                "Are you concerned about fraudulent applications?",
-                "Do you want to improve student experience?",
-                "Do you need verification tracking and reporting for UKVI?"
+                "Streamline admissions teams overwhelmed by volume",
+                "Mitigate risks of fraudulent global applications",
+                "Enhance the international student experience",
+                "Automated tracking and reporting for UKVI compliance"
             ],
             ctaText: "Find out more"
         },
         {
             icon: Search,
-            title: "Background Screening & Recruitment",
+            title: "Background Screening",
             points: [
-                "Do you need to check candidates' international qualifications at the primary source?",
-                "Do you need a trusted GDPR-compliant service, available to you 24/7?",
-                "Is comprehensive global coverage an essential part of your offering?",
-                "Do you need a fixed price per check?"
+                "Primary source verification for international talent",
+                "24/7 GDPR-compliant cloud infrastructure",
+                "Comprehensive global coverage across 195 countries",
+                "Transparent, fixed-price pricing model"
             ],
             ctaText: "Find out more"
         },
@@ -70,70 +83,79 @@ const Solutions: React.FC = () => {
             icon: Stethoscope,
             title: "Health & Social Care",
             points: [
-                "Do you recruit internationally?",
-                "Do you need to check licences to practise?",
-                "Do you need to check the credentials and language skills of every employee?",
-                "Does your staff list change daily, with agency and bank staff, and students?"
+                "Seamless international recruitment workflow",
+                "Instant licence-to-practise validation",
+                "Credential and language skill audits",
+                "Dynamic management for agency and bank staff"
             ],
             ctaText: "Find out more"
         },
         {
             icon: BriefcaseBusiness,
-            title: "Regulatory Authorities & Professional Bodies",
+            title: "Professional Bodies",
             points: [
-                "Do you have a large membership?",
-                "Do you receive numerous enquiries about your members' certifications?",
-                "Would you like to automate the related administration?",
-                "Would you like to make registration self-funding?"
+                "Scalable verification for large memberships",
+                "Automated enquiry management systems",
+                "Self-funding registration models",
+                "Secure administrative automation"
             ],
             ctaText: "Find out more"
         }
     ];
 
     return (
-        <section className="bg-[#F8F8F5] py-24 relative overflow-hidden">
-            {/* Background Graphic - Circular design */}
-            <div className="absolute inset-0 z-0 opacity-[0.03] pointer-events-none">
-                <svg viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="500" cy="500" r="300" stroke="#43B5AD" strokeWidth="2" fill="none" />
-                    <circle cx="200" cy="800" r="150" stroke="#43B5AD" strokeWidth="2" fill="none" />
+        <section className="bg-[#F8F8F5] py-32 px-6 lg:px-12 relative overflow-hidden">
+
+            {/* VIP BACKGROUND GRAPHICS */}
+            <div className="absolute inset-0 z-0 opacity-[0.05] pointer-events-none">
+                <svg viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg" className="w-full h-full">
+                    <circle cx="10%" cy="20%" r="150" stroke="#43B5AD" strokeWidth="1" fill="none" />
+                    <circle cx="90%" cy="80%" r="250" stroke="#FF9654" strokeWidth="1" fill="none" />
                 </svg>
             </div>
 
-            <div className="container mx-auto px-6 relative z-10">
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div className="max-w-7xl mx-auto relative z-10">
+                <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 lg:gap-24 items-start">
 
-                    {/* Left Side: Mockups */}
-                    <div className="relative h-[600px] flex items-center justify-center">
-                        {/* Base Laptop */}
-                        <div className="absolute w-[80%] left-0 top-0 shadow-2xl">
-                            <img src="/mockups/laptop.png" alt="QC Portal Laptop" className="object-contain" />
-                        </div>
-                        {/* Woman with Tablet */}
-                        <div className="absolute w-[300px] left-[-50px] bottom-[-20px] z-10">
-                            <img src="/mockups/woman.png" alt="Person using QC" className="object-contain" />
-                        </div>
-                        {/* Large C graphic behind woman */}
-                        <div className="absolute left-[-100px] bottom-0 text-[#43B5AD] text-[400px] font-bold opacity-30 z-0">C</div>
+                    {/* Left Side: Dynamic Mockup Stack */}
+                    <div className="lg:col-span-5 relative h-[500px] md:h-[700px] flex items-center justify-center group">
 
-                        {/* Tablet */}
-                        <div className="absolute w-[45%] right-[5%] top-[10%] shadow-xl z-20">
-                            <img src="/mockups/tablet.png" alt="QC Portal Tablet" className="object-contain" />
+                        {/* Large Background Accent "C" */}
+                        <div className="absolute left-[-15%] bottom-0 text-[#43B5AD] text-[35rem] font-black opacity-[0.07] select-none group-hover:scale-110 transition-transform duration-1000">C</div>
+
+                        {/* Base Laptop Mockup */}
+                        <div className="absolute w-full top-0 z-10 transform -rotate-2 hover:rotate-0 transition-transform duration-700 shadow-2xl rounded-xl overflow-hidden">
+                            <img src="/portal.jpg" alt="Portal View" className="w-full h-auto object-contain" />
                         </div>
-                        {/* Mobile with "I'm Verified" */}
-                        <div className="absolute w-[25%] right-[10%] bottom-[5%] shadow-xl z-30">
-                            <img src="/mockups/phone.png" alt="QC Portal Phone" className="object-contain" />
+
+                        {/* Tablet Overlap */}
+                        <div className="absolute w-[60%] right-[-10%] top-[30%] z-20 shadow-2xl transform rotate-3 hover:rotate-0 transition-all duration-700">
+                            <img src="/tablet1.jpg" alt="Tablet View" className="w-full h-auto object-contain rounded-xl" />
+                        </div>
+
+                        {/* Person / Professional Illustration */}
+                        <div className="absolute w-[65%] left-[-20%] bottom-[-5%] z-30 drop-shadow-2xl">
+                            <img src="/mockups/woman.png" alt="Verification Professional" className="w-full h-auto object-contain" />
+                        </div>
+
+                        {/* Floating Mobile Phone */}
+                        <div className="absolute w-[30%] right-[5%] bottom-[10%] z-40 shadow-2xl transform -rotate-12 hover:rotate-0 transition-all duration-500">
+                            <img src="/mobile.webp" alt="Mobile Verification" className="w-full h-auto object-contain" />
                         </div>
                     </div>
 
-                    {/* Right Side: Text & Cards */}
-                    <div>
-                        <h2 className="text-4xl md:text-5xl font-semibold text-[#2D4A53] mb-12 leading-tight">
-                            How Qualification Check can help your organisation
-                        </h2>
+                    {/* Right Side: Narrative & Strategy Cards */}
+                    <div className="lg:col-span-7">
+                        <div className="max-w-2xl">
+                            <span className="text-[#43B5AD] font-black tracking-[0.3em] uppercase text-xs mb-4 block">Institutional Impact</span>
+                            <h2 className="text-[#002b5c] text-4xl md:text-6xl font-black mb-16 leading-[1.1] tracking-tighter">
+                                How Qualification Check <br />
+                                <span className="text-[#43B5AD]">empowers</span> your organization.
+                            </h2>
+                        </div>
 
                         {/* Cards Grid */}
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
                             {solutionCardsData.map((card, index) => (
                                 <SolutionCard key={index} {...card} />
                             ))}
