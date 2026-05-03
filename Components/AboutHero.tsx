@@ -42,7 +42,6 @@ const AboutHero: React.FC = () => {
                         </p>
                     </div>
 
-                    {/* Stats / Highlights Row */}
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8 pt-8 border-t border-gray-200/50">
                         <div>
                             <div className="text-[#43B5AD] text-4xl font-black">15+</div>
