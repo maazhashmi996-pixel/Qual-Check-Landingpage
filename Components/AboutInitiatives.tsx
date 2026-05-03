@@ -32,7 +32,6 @@ const Initiatives: React.FC = () => {
 
     return (
         <section className="bg-white pb-24">
-            {/* Dark Header Box with Brand Colors */}
             <div className="bg-[#004085] pt-24 pb-48 px-8 text-center rounded-b-[50px] md:rounded-b-[100px] relative overflow-hidden">
                 {/* Decorative Pattern */}
                 <div className="absolute top-0 left-0 w-full h-full opacity-10 pointer-events-none">
@@ -50,7 +49,6 @@ const Initiatives: React.FC = () => {
                 </div>
             </div>
 
-            {/* Overlapping VIP Cards */}
             <div className="max-w-7xl mx-auto px-8 -mt-32">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
                     {initiatives.map((item, index) => (
