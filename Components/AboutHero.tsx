@@ -23,12 +23,10 @@ const AboutHero: React.FC = () => {
                     </span>
                 </div>
 
-                {/* Main Heading with Gradient Effect */}
                 <h1 className="text-[#004085] text-5xl md:text-8xl font-extrabold mb-10 tracking-tight">
                     About <span className="text-[#43B5AD]">Us</span>
                 </h1>
 
-                {/* Sub-headline: Focused on Technology & Trust */}
                 <h3 className="text-[#2D4A53] text-2xl md:text-4xl font-semibold max-w-4xl mx-auto leading-tight mb-12">
                     Innovating global verification through <span className="underline decoration-[#43B5AD] decoration-4 underline-offset-8">advanced technology</span> and human integrity.
                 </h3>
