@@ -13,34 +13,31 @@ const VerificationFAQs: React.FC = () => {
 
     const faqs = [
         {
-            question: "What is Qualification Check’s Global Verification Service for?",
-            answer: "Our Global Verification service is used to check the academic or professional qualifications of a candidate or applicant, at any accredited university or institution in the world. It is used by individuals, employers, recruiters, background screeners and institutions, to verify qualifications and awards."
+            question: "What is Verification Check’s Pakistan Verification Service for?",
+            answer: "Our Pakistan Verification service is used to check the academic or professional qualifications of a candidate or applicant, at any accredited university or institution in the world. It is used by individuals, employers, recruiters, background screeners and institutions, to verify qualifications and awards."
         },
         {
-            question: "What does the Global Verification service verify?",
-            answer: "Qualification Check verifies an individual's qualification or award with the original issuing body, based upon the supply of the following information: full name, date of birth, dates of attendance, institution, course title or award, qualification type and classification or grade."
+            question: "What does the Pakistan Verification service verify?",
+            answer: "Verification Check verifies an individual's qualification or award with the original issuing body, based upon the supply of the following information: full name, date of birth, dates of attendance, institution, course title or award, qualification type and classification or grade."
         },
         {
             question: "How do I create an account?",
-            answer: "Visit qualificationcheck.com and click on the Sign-Up button in the top right corner. Once your personal information is submitted, you will receive an invitation email to join the Qualification Check verification platform."
+            answer: "Visit verificationcheck.com.pk and click on the Sign-Up button in the top right corner. Once your personal information is submitted, you will receive an invitation email to join the Verification Check verification platform."
         },
         {
             question: "How do I submit a check?",
-            answer: "After you sign-in to the Qualification Check verification platform, click on 'New Verification' on the left-hand side menu, add as many education checks as you need. Once you submit the individual details, click Next."
+            answer: "After you sign-in to the Verification Check verification platform, click on 'New Verification' on the left-hand side menu, add as many education checks as you need. Once you submit the individual details, click Next."
         },
         {
             question: "What is a Consent Form?",
             answer: "A signed consent form is often required before the university or institution will release the requested verification. Some institutions do not require consent forms. Some may require additional information such as scanned copies of transcripts."
         },
-        {
-            question: "How do I buy credit?",
-            answer: "On the left-hand menu bar, click on 'Buy Credit' and select the amount you need for your verifications. From the same section you will be able to save your card details for future transactions."
-        }
+
     ];
 
     // WhatsApp Configuration
     const phoneNumber = "923094158560";
-    const message = encodeURIComponent("Hello! I'm interested in your Global Verification services. Can you help me with a few questions?");
+    const message = encodeURIComponent("Hello! I'm interested in your Pakistan Verification services. Can you help me with a few questions?");
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
 
     return (
@@ -64,7 +61,7 @@ const VerificationFAQs: React.FC = () => {
                         Common <span className="text-[#43B5AD]">Queries.</span>
                     </h2>
                     <p className="text-gray-500 text-lg md:text-xl font-medium max-w-2xl mx-auto">
-                        Everything you need to know about our global verification infrastructure.
+                        Everything you need to know about our Pakistan verification infrastructure.
                     </p>
                 </div>
 

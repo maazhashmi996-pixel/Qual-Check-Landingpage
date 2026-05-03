@@ -41,7 +41,7 @@ const GlobalPresence: React.FC = () => {
                         {/* Modified Paragraph 1: Direct Physical Presence */}
                         <div className="space-y-2">
                             <h3 className={`${textSecondary} text-2xl md:text-3xl leading-snug`}>
-                                Verified through a direct physical presence across <span className={`${textHighlight} font-bold`}>11 key international locations</span>
+                                Verified through a direct physical presence across <span className={`${textHighlight} font-bold`}>11 key </span>
                             </h3>
                             <p className={`${textSecondary} text-base`}>
                                 We ensure authenticity by managing crucial verifications in-country, reducing risk and accelerating processing times.
@@ -51,7 +51,7 @@ const GlobalPresence: React.FC = () => {
                         {/* Modified Paragraph 2: Comprehensive Language Support */}
                         <div className="space-y-2">
                             <h3 className={`${textSecondary} text-2xl md:text-3xl leading-snug`}>
-                                Supporting global operations with native verification capabilities in <span className={`${textHighlight} font-bold`}>20+ world languages</span>
+                                Supporting operation with native verification capabilities <span className={`${textHighlight} font-bold`}></span>
                             </h3>
                             <p className={`${textSecondary} text-base`}>
                                 Breaking down language barriers to provide accurate and legally-sound results, regardless of origin.
@@ -78,21 +78,14 @@ const GlobalPresence: React.FC = () => {
 
                     <div className="relative w-full h-full p-6 border-2 border-dashed border-[#004085]/10 rounded-2xl">
                         <Image
-                            src="/17.png" // Apni map image yahan use karein (e.g., in /public)
+                            src="/pak.jpg" // Apni map image yahan use karein (e.g., in /public)
                             alt="Map illustrating verification.com's Global Presence and verified office locations across 11 countries."
                             fill
                             className="object-contain opacity-90 transition-opacity duration-300 hover:opacity-100"
                             priority={true} // Optimize loading for key section
                         />
 
-                        {/* Note on Image: Agar map tasveer available nahi hai toh placeholder show hoga */}
-                        <div className="absolute inset-0 flex items-center justify-center text-gray-400 bg-gray-100 rounded-2xl group-hover:hidden">
-                            <p className="p-10 text-center border border-dashed border-gray-300 rounded">
-                                [ Placeholder for World Map Image at '/public/17.png' ]
-                                <br />
-                                Add your global presence map here.
-                            </p>
-                        </div>
+
                     </div>
 
                     {/* Optional: Interactive/Pulsing Dot Effect Placeholder (Using CSS only for now) */}

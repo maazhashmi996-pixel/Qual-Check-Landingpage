@@ -28,7 +28,7 @@ const AboutHero: React.FC = () => {
                 </h1>
 
                 <h3 className="text-[#2D4A53] text-2xl md:text-4xl font-semibold max-w-4xl mx-auto leading-tight mb-12">
-                    Innovating global verification through <span className="underline decoration-[#43B5AD] decoration-4 underline-offset-8">advanced technology</span> and human integrity.
+                    Innovating Pakistan verification through <span className="underline decoration-[#43B5AD] decoration-4 underline-offset-8">advanced technology</span> and human integrity.
                 </h3>
 
                 {/* Glassmorphism Content Box */}

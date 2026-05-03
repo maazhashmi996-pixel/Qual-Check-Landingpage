@@ -7,7 +7,7 @@ import { ChevronLeft, ChevronRight, Quote } from 'lucide-react';
 const testimonials = [
     {
         id: 1,
-        text: "Whenever we have had challenges in the past, we have found the Qualification Check operations team to be great at resolving them via Live Chat, and for adding newly requested institutions in a timely manner.",
+        text: "Whenever we have had challenges in the past, we have found the Verification Check operations team to be great at resolving them via Live Chat, and for adding newly requested institutions in a timely manner.",
         author: "Heidrick and Struggles",
         location: "United Kingdom",
         role: "Strategic Partner"
@@ -21,7 +21,7 @@ const testimonials = [
     },
     {
         id: 3,
-        text: "Reliable, fast, and secure. Qualification Check has become an essential part of our recruitment workflow, ensuring every credential is authenticated at the source.",
+        text: "Reliable, fast, and secure. Verification Check has become an essential part of our recruitment workflow, ensuring every credential is authenticated at the source.",
         author: "Elite Medical Group",
         location: "UAE",
         role: "Compliance Head"

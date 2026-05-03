@@ -14,12 +14,8 @@ function page() {
         <div>
             <ResourcesHero />
             <ResourceGuide />
-            <ManualRisks />
-            <NewsHighlight />
             <RegionGuide />
-            <ConferenceHighlight />
             <FakeDegreeRisk />
-            <FraudReportSection />
         </div>
     )
 }

@@ -62,7 +62,7 @@ const Solutions: React.FC = () => {
                 "Streamline admissions teams overwhelmed by volume",
                 "Mitigate risks of fraudulent global applications",
                 "Enhance the international student experience",
-                "Automated tracking and reporting for UKVI compliance"
+                "Automated tracking and reporting"
             ],
             ctaText: "Find out more"
         },
@@ -72,8 +72,8 @@ const Solutions: React.FC = () => {
             points: [
                 "Primary source verification for international talent",
                 "24/7 GDPR-compliant cloud infrastructure",
-                "Comprehensive global coverage across 195 countries",
-                "Transparent, fixed-price pricing model"
+                "Comprehensive Pakistan coverage across",
+                "Transparent, free of cost"
             ],
             ctaText: "Find out more"
         },
@@ -81,7 +81,7 @@ const Solutions: React.FC = () => {
             icon: Stethoscope,
             title: "Health & Social Care",
             points: [
-                "Seamless international recruitment workflow",
+                "Seamless recruitment workflow",
                 "Instant licence-to-practise validation",
                 "Credential and language skill audits",
                 "Dynamic management for agency and bank staff"
@@ -128,7 +128,7 @@ const Solutions: React.FC = () => {
                         </div>
 
                         <div className="absolute w-[65%] left-[-20%] bottom-[-5%] z-30 drop-shadow-2xl">
-                            <img src="/mockups/woman.png" alt="Verification Professional" className="w-full h-auto object-contain" />
+                            <img src="/girl.jpg" alt="Verification Professional" className="w-full h-auto object-contain" />
                         </div>
 
                         <div className="absolute w-[30%] right-[5%] bottom-[10%] z-40 shadow-2xl transform -rotate-12 hover:rotate-0 transition-all duration-500">
@@ -136,12 +136,12 @@ const Solutions: React.FC = () => {
                         </div>
                     </div>
 
-                    {/* Right Side: Narrative & Strategy Cards */}
+                    {/* Right Side:  */}
                     <div className="lg:col-span-7">
                         <div className="max-w-2xl">
                             <span className="text-[#43B5AD] font-black tracking-[0.3em] uppercase text-xs mb-4 block">Institutional Impact</span>
                             <h2 className="text-[#002b5c] text-4xl md:text-6xl font-black mb-16 leading-[1.1] tracking-tighter">
-                                How Qualification Check <br />
+                                How Verification Check <br />
                                 <span className="text-[#43B5AD]">empowers</span> your organization.
                             </h2>
                         </div>

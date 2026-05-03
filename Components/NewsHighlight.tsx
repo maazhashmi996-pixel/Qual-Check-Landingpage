@@ -37,7 +37,7 @@ const NewsHighlight: React.FC = () => {
                         </div>
                         <p className="pl-8 border-l-2 border-[#43B5AD]/20 italic">
                             Honouring the creative, data-driven, and collaborative approaches that are
-                            strengthening global verification standards and integrity.
+                            strengthening Pakistan verification standards and integrity.
                         </p>
                     </div>
 

@@ -48,7 +48,7 @@ const SolutionsGlobalVerification: React.FC = () => {
                         </div>
                         <div>
                             <p className="text-white/60 text-[10px] font-black tracking-widest uppercase">Powered by</p>
-                            <p className="text-white text-xl font-black tracking-tighter leading-none">QUALIFICATION CHECK</p>
+                            <p className="text-white text-xl font-black tracking-tighter leading-none">Verification CHECK</p>
                         </div>
                     </div>
                 </div>

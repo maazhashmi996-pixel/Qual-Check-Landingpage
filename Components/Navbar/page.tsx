@@ -12,7 +12,7 @@ const Navbar: React.FC = () => {
     const pathname = usePathname();
 
     const phoneNumber = "923094158560";
-    const demoMessage = encodeURIComponent("Hello! I would like to book a demo for the Qualification Check platform.");
+    const demoMessage = encodeURIComponent("Hello! I would like to book a demo for the Verification Check platform.");
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${demoMessage}`;
     const vercelLoginUrl = "https://your-project-name.vercel.app/login";
 
@@ -44,8 +44,8 @@ const Navbar: React.FC = () => {
     return (
         <>
             <nav className={`fixed top-0 w-full z-[110] transition-all duration-500 ${scrolled
-                    ? 'bg-[#002b5c]/90 backdrop-blur-md py-3 shadow-xl'
-                    : 'bg-[#2D4A53] py-5'
+                ? 'bg-[#002b5c]/90 backdrop-blur-md py-3 shadow-xl'
+                : 'bg-[#2D4A53] py-5'
                 }`}>
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10 flex items-center justify-between">
 
@@ -54,7 +54,7 @@ const Navbar: React.FC = () => {
                         <div className="relative w-10 h-10 md:w-12 md:h-12 transition-transform duration-500 group-hover:scale-110">
                             <Image
                                 src="/logo.png"
-                                alt="Qualification Check Logo"
+                                alt="Verification Check Logo"
                                 fill
                                 className="object-contain"
                                 priority
@@ -62,7 +62,7 @@ const Navbar: React.FC = () => {
                         </div>
                         <div className="leading-none flex flex-col">
                             <span className="text-white text-lg md:text-xl font-black tracking-tighter uppercase">
-                                Qualification
+                                Verification
                             </span>
                             <span className="text-[#43B5AD] text-xs md:text-sm font-bold tracking-[0.2em] uppercase">
                                 Check
