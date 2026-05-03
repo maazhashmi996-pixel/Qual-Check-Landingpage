@@ -32,7 +32,7 @@ const MissionVision: React.FC = () => {
                             <span className="text-[#43B5AD] font-black tracking-[0.3em] uppercase text-xs">Our Mission</span>
                         </div>
                         <p className="text-[#F8F8F5] text-xl lg:text-2xl leading-relaxed font-medium">
-                            To empower organisations and individuals through <span className="text-[#43B5AD] border-b-2 border-[#43B5AD]/30 group-hover:border-[#43B5AD] transition-all">trusted global verified</span> credentials.
+                            To empower organisations and individuals through <span className="text-[#43B5AD] border-b-2 border-[#43B5AD]/30 group-hover:border-[#43B5AD] transition-all">trusted Pakistan verified</span> credentials.
                         </p>
                     </div>
 
@@ -45,7 +45,7 @@ const MissionVision: React.FC = () => {
                             <span className="text-[#43B5AD] font-black tracking-[0.3em] uppercase text-xs">Our Vision</span>
                         </div>
                         <p className="text-[#F8F8F5] text-xl lg:text-2xl leading-relaxed font-medium">
-                            To be the <span className="text-white font-bold">ultimate trusted source</span> of global verified qualification and licence data.
+                            To be the <span className="text-white font-bold">ultimate trusted source</span> of Pakistan verified qualification and licence data.
                         </p>
                     </div>
 

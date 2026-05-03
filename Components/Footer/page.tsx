@@ -55,7 +55,7 @@ const Footer: React.FC = () => {
                             <li><Link href="#" className="hover:text-white transition-colors">Education Verification</Link></li>
                             <li><Link href="#" className="hover:text-white transition-colors">Document Verification</Link></li>
                             <li><Link href="#" className="hover:text-white transition-colors">Employment Verification</Link></li>
-                            <li><Link href="#" className="hover:text-white transition-colors">Global Verification</Link></li>
+                            <li><Link href="#" className="hover:text-white transition-colors">Pakistan Verification</Link></li>
                         </ul>
                     </div>
 
@@ -78,6 +78,8 @@ const Footer: React.FC = () => {
                             Building 14, Sector CCA<br />
                             DHA Phase 5<br />
                             Lahore, Punjab 54000, Pakistan
+                            +923309990727
+                            info@verification.com.pk
                         </address>
 
                         <div className="flex flex-wrap items-center gap-6">

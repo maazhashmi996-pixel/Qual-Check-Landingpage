@@ -45,7 +45,7 @@ const ResourcesHero: React.FC = () => {
                 {/* --- MAIN HEADLINES --- */}
                 <div className="text-center space-y-6 max-w-5xl mx-auto">
                     <h1 className="text-[#002b5c] text-5xl md:text-8xl font-black leading-[1] tracking-tighter">
-                        Global Qualification <br />
+                        Qualification <br />
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#002b5c] via-[#43B5AD] to-[#002b5c] bg-[length:200%_auto] animate-gradient-x">
                             Verification.
                         </span>
@@ -66,7 +66,7 @@ const ResourcesHero: React.FC = () => {
                                 Global recruitment doesn’t have to mean global risk.
                             </p>
                             <p className="max-w-3xl">
-                                Qualification Check connects you directly to over <span className="text-[#002b5c] font-bold underline decoration-[#43B5AD] decoration-4">53,000 verified sources</span> with one powerful tool.
+                                Pakistan Check connects you directly to over <span className="text-[#002b5c] font-bold underline decoration-[#43B5AD] decoration-4">53,000 verified sources</span> with one powerful tool.
                                 Built for those who demand scalability and total security.
                             </p>
                         </div>

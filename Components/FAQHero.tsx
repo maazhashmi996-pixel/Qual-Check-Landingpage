@@ -53,7 +53,7 @@ const FAQHero: React.FC = () => {
                 {/* Subtitle with better spacing */}
                 <div className="mt-8 relative">
                     <p className="text-gray-200 text-lg md:text-2xl font-medium max-w-2xl mx-auto leading-relaxed opacity-90">
-                        Everything you need to know about our global verification ecosystem and enterprise solutions.
+                        Everything you need to know about our Pakistan verification ecosystem and enterprise solutions.
                     </p>
                     {/* Centered underline */}
                     <div className="w-20 h-1.5 bg-[#43B5AD] mx-auto mt-6 rounded-full"></div>

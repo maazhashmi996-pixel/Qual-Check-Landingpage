@@ -10,25 +10,25 @@ const FAQSection: React.FC = () => {
 
     // WhatsApp Configuration
     const phoneNumber = "923094158560";
-    const supportMessage = encodeURIComponent("Hello! I have a question regarding the Global Verification services. Could you please assist me?");
+    const supportMessage = encodeURIComponent("Hello! I have a question regarding the Pakistan Verification services. Could you please assist me?");
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${supportMessage}`;
 
     const faqs = [
         {
-            question: "What is global verification?",
-            answer: "Global Verification is a state-of-the-art, cloud-based ecosystem developed by Qualification Check. It enables academic institutions and global enterprises to verify the authenticity of certificates, degrees, and professional licenses directly from the primary source, ensuring total compliance during international recruitment."
+            question: "What is Pakistan verification?",
+            answer: "Pakistan Verification is a state-of-the-art, cloud-based ecosystem developed by Verification Check. It enables academic institutions and global enterprises to verify the authenticity of certificates, degrees, and professional licenses directly from the primary source, ensuring total compliance during international recruitment."
         },
         {
-            question: "How does the Global Verification tool work?",
+            question: "How does the Pakistan Verification tool work?",
             answer: "The platform functions as a secure bridge between you and over 53,000 primary sources (universities, ministries, and professional bodies). Once a request is submitted, our automated infrastructure—backed by a global operations team—confirms the data and generates a tamper-proof, auditable report for your records."
         },
         {
-            question: "How can I try the global verification tool?",
+            question: "How can I try the Pakistan verification tool?",
             answer: "Getting started is seamless. You can book a personalized walkthrough by clicking 'Book a demo'. Our specialists will demonstrate how the tool integrates into your existing HRMS or student management systems, ensuring a scalable and efficient workflow for your team."
         },
         {
             question: "Is the data handled securely and GDPR compliant?",
-            answer: "Absolutely. Security is our core foundation. Qualification Check is ISO 27001 certified and fully GDPR compliant. All data is encrypted at rest and in transit, ensuring that sensitive applicant information is handled with the highest level of institutional integrity."
+            answer: "Absolutely. Security is our core foundation. Verification Check is ISO 27001 certified and fully GDPR compliant. All data is encrypted at rest and in transit, ensuring that sensitive applicant information is handled with the highest level of institutional integrity."
         }
     ];
 
@@ -58,7 +58,7 @@ const FAQSection: React.FC = () => {
                         </h2>
                     </div>
                     <p className="text-gray-400 font-medium max-w-xs text-sm border-l-2 border-[#43B5AD] pl-4">
-                        Everything you need to know about our global verification infrastructure.
+                        Everything you need to know about our Pakistan verification infrastructure.
                     </p>
                 </div>
 

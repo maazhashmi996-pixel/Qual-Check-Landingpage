@@ -37,7 +37,7 @@ const SolutionsHero: React.FC = () => {
                 {/* --- MAIN HEADING --- */}
                 <div className="text-center mb-10">
                     <h1 className="text-[#002b5c] text-5xl md:text-8xl font-black leading-[0.95] tracking-tighter max-w-5xl mx-auto">
-                        Global Qualification <br />
+                        Qualification <br />
                         <span className="text-[#43B5AD]">Verification.</span>
                     </h1>
                 </div>
@@ -45,7 +45,7 @@ const SolutionsHero: React.FC = () => {
                 {/* --- HIGHLIGHTED SUBHEADING --- */}
                 <div className="relative mb-12">
                     <h2 className="text-[#2D4A53] text-xl md:text-3xl font-bold max-w-4xl leading-snug text-center">
-                        53,000 trusted sources. <span className="bg-[#43B5AD]/10 px-2 text-[#43B5AD]">One global</span> qualification verification platform.
+                        53,000 trusted sources. <span className="bg-[#43B5AD]/10 px-2 text-[#43B5AD]">One global</span> verification platform.
                     </h2>
                 </div>
 

@@ -94,7 +94,7 @@ const OurSolutions: React.FC = () => {
     const solutions = [
         {
             headerBg: "bg-[#002b5c]",
-            title: "Global Verification",
+            title: "Verification",
             subtitle: "Academic & Professional",
             description: "Providing world-class primary source verification for qualifications and licenses across 190+ countries.",
             icon: <Globe size={28} className="text-[#002b5c]" />
@@ -116,7 +116,7 @@ const OurSolutions: React.FC = () => {
         {
             headerBg: "bg-[#002b5c]",
             title: "Medical Monitoring",
-            subtitle: "UK Licence Tracking",
+            subtitle: "Licence Tracking",
             description: "Automated subscription service to ensure all medical practitioners maintain current and valid licenses.",
             icon: <Stethoscope size={28} className="text-[#002b5c]" />
         },

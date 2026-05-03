@@ -23,7 +23,7 @@ const SectorsList: React.FC = () => {
             accent: "bg-[#43B5AD]",
             content: (
                 <p>
-                    Qualification Check’s Global Verification streamlines <span className="text-[#002b5c] font-bold">university admissions</span> by providing rapid, primary-source verification of applicants’ academic credentials. This reduces administrative friction, mitigates fraud, and ensures strict compliance with global <span className="text-[#FF9654] font-semibold text-sm tracking-wider uppercase">Visa Regulations</span>.
+                    Verification Check’s Pakistan Verification streamlines <span className="text-[#002b5c] font-bold">university admissions</span> by providing rapid, primary-source verification of applicants’ academic credentials. This reduces administrative friction, mitigates fraud, and ensures strict compliance with global <span className="text-[#FF9654] font-semibold text-sm tracking-wider uppercase">Visa Regulations</span>.
                 </p>
             )
         },
@@ -33,7 +33,7 @@ const SectorsList: React.FC = () => {
             accent: "bg-[#FF9654]",
             content: (
                 <p>
-                    In the <span className="text-[#002b5c] font-bold">Health & Social Care sector</span>, we enable employers to confirm credentials for domestic and international recruits. Integrated with <span className="text-[#43B5AD] font-semibold italic">UK Medical Licence Monitoring</span>, organisations can automate register checks and maintain the highest standards of clinical patient care.
+                    In the <span className="text-[#002b5c] font-bold">Health & Social Care sector</span>, we enable employers to confirm credentials for domestic  recruits. Integrated with <span className="text-[#43B5AD] font-semibold italic">UK Medical Licence Monitoring</span>, organisations can automate register checks and maintain the highest standards of clinical patient care.
                 </p>
             )
         },
@@ -43,7 +43,7 @@ const SectorsList: React.FC = () => {
             accent: "bg-[#002b5c]",
             content: (
                 <p>
-                    A comprehensive solution for <span className="text-[#002b5c] font-bold">recruiters and background screeners</span> validating international qualifications. Our platform cuts "Time-to-Hire" metrics significantly, ensuring that only verified, high-caliber talent enters your candidate pipeline.
+                    A comprehensive solution for <span className="text-[#002b5c] font-bold">recruiters and background screeners</span> validating  qualifications. Our platform cuts "Time-to-Hire" metrics significantly, ensuring that only verified, high-caliber talent enters your candidate pipeline.
                 </p>
             )
         },
@@ -53,7 +53,7 @@ const SectorsList: React.FC = () => {
             accent: "bg-[#43B5AD]",
             content: (
                 <p>
-                    <span className="text-[#002b5c] font-bold">Professional and regulatory bodies</span> benefit by efficiently confirming member qualifications globally. This infrastructure supports global professional standards and aids in the seamless recognition of international credentials across borders.
+                    <span className="text-[#002b5c] font-bold">Professional and regulatory bodies</span> benefit by efficiently confirming member qualifications. This infrastructure supports global professional standards and aids in the seamless recognition of international credentials across borders.
                 </p>
             )
         }
@@ -79,7 +79,7 @@ const SectorsList: React.FC = () => {
                         Sectors we <span className="text-[#43B5AD]">work with.</span>
                     </h2>
                     <p className="text-gray-500 text-xl md:text-2xl max-w-3xl leading-relaxed font-medium">
-                        Our Global Verification infrastructure is the trusted standard for diverse industries ensuring integrity in every hire.
+                        Our Pakistan Verification infrastructure is the trusted standard for diverse industries ensuring integrity in every hire.
                     </p>
                 </div>
 

@@ -32,7 +32,7 @@ const Hero: React.FC = () => {
 
                 {/* --- MAIN HEADING --- */}
                 <h1 className="text-6xl md:text-8xl font-black text-[#004085] mb-8 tracking-tighter leading-[0.95]">
-                    Global Verification <br />
+                    Verification <br />
                     <span className="text-[#43B5AD] italic font-serif">Made Simple.</span>
                 </h1>
 
@@ -44,13 +44,13 @@ const Hero: React.FC = () => {
                     </div>
                     <div className="h-10 w-px bg-gray-200 hidden md:block"></div>
                     <div className="flex flex-col items-center">
-                        <span className="text-3xl md:text-4xl font-black text-[#004085]">195+</span>
-                        <span className="text-xs font-bold text-gray-400 uppercase tracking-widest">Countries</span>
+                        <span className="text-3xl md:text-4xl font-black text-[#004085]">50+</span>
+                        <span className="text-xs font-bold text-gray-400 uppercase tracking-widest">Universities</span>
                     </div>
                     <div className="h-10 w-px bg-gray-200 hidden md:block"></div>
                     <div className="flex flex-col items-center">
-                        <span className="text-3xl md:text-4xl font-black text-[#004085]">20</span>
-                        <span className="text-xs font-bold text-gray-400 uppercase tracking-widest">Languages</span>
+                        <span className="text-3xl md:text-4xl font-black text-[#004085]">20+</span>
+                        <span className="text-xs font-bold text-gray-400 uppercase tracking-widest">Educational Board</span>
                     </div>
                     <div className="h-10 w-px bg-gray-200 hidden md:block"></div>
                     <div className="flex flex-col items-center">

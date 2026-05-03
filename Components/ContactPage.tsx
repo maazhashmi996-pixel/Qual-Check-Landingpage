@@ -28,7 +28,7 @@ const ContactPage: React.FC = () => {
                         Contact <span className="text-[#43B5AD]">Us</span> Today
                     </h1>
                     <p className="text-gray-500 text-xl md:text-2xl font-medium max-w-2xl mx-auto leading-relaxed">
-                        Have questions about our global verification services? Our experts are here to help.
+                        Have questions about our Pakistan verification services? Our experts are here to help.
                     </p>
                 </div>
             </section>
